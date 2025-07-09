@@ -1,0 +1,102 @@
+¡Claro! Aquí tienes un pequeño curso introductorio para empezar a aprender programación desde cero:
+
+### Lección 1: Introducción a la Programación
+1. **¿Qué es la programación?**
+   - La programación es el proceso de crear un conjunto de instrucciones que le dicen a una computadora cómo realizar una tarea.
+
+2. **¿Por qué aprender a programar?**
+   - Automatización de tareas.
+   - Creación de software y aplicaciones.
+   - Resolución de problemas complejos.
+
+### Lección 2: Conceptos Básicos
+1. **Algoritmos**
+   - Un algoritmo es una secuencia de pasos lógicos para resolver un problema.
+
+2. **Lenguajes de Programación**
+   - Un lenguaje de programación es un conjunto de reglas sintácticas y semánticas que definen cómo se escriben y cómo se interpretan los programas.
+   - Ejemplos: Python, JavaScript, Java, C++, etc.
+
+### Lección 3: Tu Primer Programa
+1. **Hola Mundo**
+   - Vamos a escribir un programa simple que imprima "Hola Mundo" en la pantalla.
+   - Ejemplo en Python:
+     ```python
+     print("Hola Mundo")
+     ```
+
+### Lección 4: Variables y Tipos de Datos
+1. **Variables**
+   - Una variable es un contenedor para almacenar datos.
+   - Ejemplo en Python:
+     ```python
+     nombre = "Juan"
+     edad = 25
+     ```
+
+2. **Tipos de Datos**
+   - Enteros (int): Números sin decimales.
+   - Flotantes (float): Números con decimales.
+   - Cadenas (str): Texto.
+   - Booleanos (bool): Verdadero o Falso.
+
+### Lección 5: Estructuras de Control
+1. **Condicionales**
+   - Permiten ejecutar diferentes bloques de código dependiendo de una condición.
+   - Ejemplo en Python:
+     ```python
+     edad = 18
+     if edad >= 18:
+         print("Eres mayor de edad")
+     else:
+         print("Eres menor de edad")
+     ```
+
+2. **Bucles**
+   - Permiten repetir un bloque de código varias veces.
+   - Ejemplo de un bucle `for` en Python:
+     ```python
+     for i in range(5):
+         print(i)
+     ```
+
+### Lección 6: Funciones
+1. **¿Qué es una función?**
+   - Una función es un bloque de código que realiza una tarea específica y puede ser reutilizado.
+
+2. **Definir una función**
+   - Ejemplo en Python:
+     ```python
+     def saludar(nombre):
+         print("Hola, " + nombre)
+
+     saludar("Juan")
+     ```
+
+### Lección 7: Listas y Diccionarios
+1. **Listas**
+   - Una lista es una colección ordenada y mutable de elementos.
+   - Ejemplo en Python:
+     ```python
+     frutas = ["manzana", "banana", "cereza"]
+     ```
+
+2. **Diccionarios**
+   - Un diccionario es una colección no ordenada de pares clave-valor.
+   - Ejemplo en Python:
+     ```python
+     persona = {"nombre": "Juan", "edad": 25}
+     ```
+
+### Lección 8: Práctica
+1. **Ejercicios Prácticos**
+   - Escribe un programa que sume dos números.
+   - Escribe un programa que imprima los números del 1 al 10.
+   - Escribe un programa que determine si un número es par o impar.
+
+### Recursos Adicionales
+- **Libros**: "Aprende Python en un fin de semana" de Al Sweigart.
+- **Cursos en línea**: Codecademy, Coursera, edX.
+- **Comunidades**: Stack Overflow, Reddit (r/learnprogramming).
+
+¡Espero que este pequeño curso te ayude a empezar en el mundo de la programación! Si tienes alguna pregunta o necesitas más ayuda, no dudes en preguntar.

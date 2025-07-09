@@ -1,0 +1,1 @@
+Diseñe un programa que reciba como entrada la CC, nombres, apellidos, nota 1, nota 2, nota 3 del estudiante. El programa debe generar un listado de estudiantes donde se visualice la cc del estudiante, nombre de estudiante, apellidos del estudiante, nota 1, nota2, nota 3, nota final, estado, calificación cualitativa

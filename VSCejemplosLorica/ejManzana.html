@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Manzana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1 style="color: rgb(89, 0, 255);">Solución al Problema de las Manzanas</h1>
+        <hr noshade="noshade" size="3" width="70%" color="red">
+        <br>
+        <table border="3">
+
+            <th>Propiedad</th>
+            <th>Valor</th>
+            <tbody>
+                <tr>
+                    <td>Items</td>
+                    <td>
+                        <input type="text" name="items" id="items" placeholder="Digite el item" autofocus>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Cantidad Manzanas
+                    </td>
+                    <td>
+                        <input type="text" name="cantm" id="cantm" placeholder="Digite cantidad de Manzanas">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Valor Caja</td>
+                    <td>
+                        <input type="text" name="valorCaja" id="valorCaja" placeholder="Digite valor de la caja">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table border="3">
+            <tr>
+                <td>
+                    <button onclick="calcular()">Calcular</button>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <table border="3">
+            <th>Items</th>
+            <th>Cantidad Manzana</th>
+            <th>Valor</th>
+            <th>Total</th>
+            <tbody id="resultado">
+
+            </tbody>                      
+
+        </table>
+    </center>
+    <script src="ejManzana.js"></script>
+</body>
+</html>

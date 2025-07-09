@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Estudiantes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <h1>Gestión Datos Estudiantes</h1>
+        <hr noshade="noshade" size="3" width="60%" color="red">
+        <br>
+        <table border="3" style="background-color: burlywood;">
+          <th>Propiedad</th>
+          <th>Valor</th>
+          <tbody>
+            <tr>
+                <td>Cedula</td>
+                <td>
+                    <input type="text" id="cedula" placeholder="Ingrese su cédula" required autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td>
+                    <input type="text" id="nombre" placeholder="Ingrese su nombre" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Apellido</td>
+                <td>
+                    <input type="text" id="apellido" placeholder="Ingrese su apellido" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Nota 1</td>
+                <td>
+                    <input type="number" id="nota1" placeholder="Ingrese la nota 1" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Nota 2</td>
+                <td>
+                    <input type="number" id="nota2" placeholder="Ingrese la nota 2" required>
+                </td>
+            </tr>
+            <tr>
+                <td>Nota 3</td>
+                <td>
+                    <input type="number" id="nota3" placeholder="Ingrese la nota 3" required>
+                </td>
+            </tr>
+          </tbody>
+        </table>
+        <table border="3" style="background-color: burlywood;">
+            <tr>
+                <td>
+                    <button id="grd" onclick="guardarDatos()">Guardar</button>
+                    <button id="act" onclick="actualizarDatos()">Actualizar</button>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <h2>Listado de Estudiantes</h2>
+        <br>
+        <table border="3" style="background-color: burlywood;">
+            <th>Cédula</th>
+            <th>Nombes</th>
+            <th>Apellidos</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th>Nota 3</th>
+            <th>Nota Final</th>
+            <th>Estado</th>
+            <th>Calificación</th>
+            <th>Acciones</th>
+            <tbody id="estudiantesList">
+                <!-- Aquí se agregarán los estudiantes -->
+        </table>
+    </center>
+</body>
+<script src="ejObjetos.js"></script>
+</html>
